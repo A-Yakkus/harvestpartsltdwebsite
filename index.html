@@ -1,115 +1,96 @@
+<!DOCTYPE HTML>
 <html>
-<head>
-	<style>
-		#headbg{
-			background-color:white;
-			width:100%;
-			height:65px;
-			display:block;
-		}
-		
-		#mainbg{
-			padding:0;
-			margin:0;
-			background: url(mainbackground.png) no-repeat center center fixed; 
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-			height:80%;
-		}
-		
-		#suppliers{
-			
-		}
-		wrapper{
-			display:block;
-			width:100%;
-		}
-		/* screen query 650px or less*/
-		@media only screen and (min-width: 500px) {
-		#headbg{
-			background-color:white;
-			background-image:linear-gradient(to right, white, white, green);
-			width:100%;
-			height:65px;
-			display:block;
-		}
-		#logo{
-			float:left
-		}
-		wrapper{
-			display:inline-block;
-			width:50%;
-		}
-		}
-		@media only screen and (min-width: 650px) {
-		#headbg{
-			background-color:white;
-			background-image:linear-gradient(to right, white, white, green);
-			width:100%;
-			height:129px;
-			display:block;
-		}
-		wrapper{
-			display:inline-block;
-			width:25%;
-		}
-		#tagline{
-			color:#65BE6B;
-		}
-		#details{
-			color:#00948B;
-		}
-		p{
-			font-size:2em;
-		}
-		}
-	</style>
-	<title>Harvest Parts</title>
-	<link rel="icon" href="icon-logo.png" />
-	<meta charset="UTF-8" />
-	<meta name="description" content="Combine Harvester parts" />
-	<meta name="author" content="Jack Stevenson" />
-	<!-- This is used for helping google, bing etc to find the site
-		see https://www.w3schools.com/tags/att_meta_name.asp to find out more.
-		-->
-	<meta name="keywords" content="Combine, Harvest, Harvester, Parts,
-		combine, harvest, harvester, parts, gates, agricultural,belt,
-		sykes-pickavant, radura, rasspe, SCH, donghua, SKF, Morris,
-		Lubricants, Timken, Maschinenbau, Heuling" />
-	<meta name="veiwport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
-<header id="headbg">
-<picture>
-    <source media="(min-width: 650px)" srcset="logo.png">
-    <img src="logo-small.png" alt="logo">
-</picture>
-</header>
-<main id="mainbg">
-<section id="info">
-<p id="tagline">Selling a wide range of parts and accessories for all the major makes of combines.</p>
-<p id="details">Contact us on<br>
-Phone:01733 669 518<br>
-Mobile:07884 273 851<br>
-Email:kevinjbutter@gmail.com<br>
-Address: Alumdene Farm 61 Blackbush Drove, Whittlesey, Peterborough PE7 2LJ</p>
-</section>
-<section id="suppliers">
-<wrapper>
-<a href="http://www.heuling.de/deu/index.htm"><img src="heulinglogo.PNG"></a>
-<a href="http://ww2.gates.com/europe/"><img src="gates1logo.PNG"></a>
-<a href="http://www.skf.com/uk/index.html"><img src="skflogo.PNG"></a>
-<a href="https://www.morrislubricants.co.uk/"><img src="morrislogo.PNG"></a>
-<a href="http://www.donghua.co.uk/"><img src="donghualogo.PNG"></a>
-<a href="http://www.radura.info/en/home/legal-information/"><img src="raduralogo.PNG"></a>
-<a href="http://www.sykes-pickavant.com/"><img src="sykeslogo.PNG"></a>
-<a href="http://www.groupschumacher.com/marken/harvesting-solution-partner/sch/"><img src="schlogo.PNG"></a>
-<a href="http://www.rasspe.de/english/"><img src="rasspe.PNG"></a>
-<a href="https://www.timken.com/"><img src="timkenlogo.PNG"></a>
-</wrapper>
-</section>
-</main>
-</body>
+	<head>
+		<title>Harvest Parts</title> 
+		<link rel="icon" href="icon-logo.png" /> 
+		<meta charset="UTF-8" /> 
+		<meta name="description" content="Combine Harvester parts" /> 
+		<meta name="author" content="Jack Stevenson" /> 
+		<meta name="keywords" content="Combine, Harvest, Harvester, Parts, 
+			combine, harvest, harvester, parts, gates, agricultural,belt, 
+			sykes-pickavant, radura, rasspe, SCH, donghua, SKF, Morris, 
+			Lubricants, Timken, Maschinenbau, Heuling" /> 
+		<meta name="veiwport" content="width=device-width, initial-scale=1.0" /> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>   
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+		<link rel="stylesheet" href="styles.css" />
+		<style>
+			#headbg{
+
+			}
+			div{
+				border:1px solid black;
+			}
+		</style>
+	</head>
+	<body class="grey lighten-4">
+		<header id="headbg" class="white"> 
+			<picture> 
+				<source media="(min-width: 650px)" srcset="logo.png"> 
+				<img src="logo-small.png" alt="logo"> 
+			</picture> 
+		</header> 
+		<main>
+			<div class="container">
+				<section>
+					<p id="tagline">Selling a wide range of parts and accessories for all the major makes of combines.</p> 
+				</section>
+				<section class="container">
+					<div class="col s2 red">
+						<div class="row">
+							<a class="" href="http://www.heuling.de/deu/index.htm"><img src="heulinglogo.PNG"></a> 
+						</div>
+						<div class="row">
+							<a class="" href="http://www.heuling.de/deu/index.htm"><img src="heulinglogo.PNG"></a> 
+						</div>
+					</div>
+					<div class="col s8">
+						<div class="row"><h3>Contact Us</h3>
+						<div class="row">
+							<div class="">
+								<p class="cyan-text darken-2">
+									Phone : 01733 669 518 or 07884 273 851
+								</p>
+								<p class="cyan-text darken-2">
+									Email : kevinjbutter@gmail.com
+								</p>
+							</div>
+							<div class="">
+								<p class="cyan-text darken-2">
+									Mail :  Harvest Parts LTD<br/>
+									Alundene Farm<br/>
+									61 Black Bush<br/>
+									Whittlesey<br/>
+									Cambridgeshire<br/>
+									PE7 2LJ
+								</p>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col s2 red">
+							<a class="" href="http://www.heuling.de/deu/index.htm"><img src="heulinglogo.PNG"></a> 
+							<a class="" href="http://www.heuling.de/deu/index.htm"><img src="heulinglogo.PNG"></a> 
+					</div>
+					
+				</section>
+				<div class="row">
+					<a class="col s2" href="http://www.heuling.de/deu/index.htm"><img src="heulinglogo.PNG"></a> 
+					<a class="col s2" href="http://ww2.gates.com/europe/"><img src="gates1logo.PNG"></a> 
+					<a class="col s2" href="http://www.skf.com/uk/index.html"><img src="skflogo.PNG"></a> 
+					<a class="col s2" href="https://www.morrislubricants.co.uk/"><img src="morrislogo.PNG"></a> 
+					<a class="col s2" href="http://www.donghua.co.uk/"><img src="donghualogo.PNG"></a> 
+					<a class="col s2" href="http://www.radura.info/en/home/legal-information/"><img src="raduralogo.PNG"></a> 
+				</div><div class="row">
+					<a class="col s2" href="http://www.sykes-pickavant.com/"><img src="sykeslogo.PNG"></a> 
+					<a class="col s2" href="http://www.groupschumacher.com/marken/harvesting-solution-partner/sch/"><img src="schlogo.PNG"></a> 
+					<a class="col s2" href="http://www.rasspe.de/english/"><img src="rasspe.PNG"></a> 
+					<a class="col s2" href="https://www.timken.com/"><img src="timkenlogo.PNG"></a> 
+				</div>
+			</div>
+		</main>
+		<footer>
+		</footer>
+	</body>
 </html>
